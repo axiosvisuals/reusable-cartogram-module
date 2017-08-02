@@ -1,0 +1,71 @@
+@import 'feta';
+@import 'reset';
+
+
+
+.chart {
+	float: left;
+	position: relative;
+	top: -15px;
+
+	&.scatterlines {
+		width: 100%;
+	}
+
+	&.cartogram {
+		width: 100%;
+	}
+
+	.labels {
+		font-size: 11px;
+	    font-family: $mono;
+	    fill: #4a4a4a;
+	}
+
+	.tick text {
+		font-size: 11px;
+	    font-family: $mono;
+	    fill: #4a4a4a;
+	}
+
+
+	&.scatterlines {
+		rect {
+			opacity: .05;
+
+			&.active {
+				opacity: 1;
+			}
+		}
+
+		.state-name {
+			font-size: 12px;
+	    	font-family: $mono;
+	    	fill: #4a4a4a;
+	    	
+		}
+
+	}
+}
+
+.state {
+
+	rect.state-bkgd {
+		fill: #ccc;
+		stroke: #fff;
+		stroke-width: 1;
+		opacity: .5;
+	}
+
+	.scrubber {
+		fill: #4a4a4a;
+		display: none;
+	}
+
+	text {
+		font-family: $mono;
+		fill: #999;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+}

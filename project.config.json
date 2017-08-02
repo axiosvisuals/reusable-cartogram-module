@@ -1,0 +1,12 @@
+{
+  "project": {
+    "name": "polarization",
+    "slug": "polarization",
+    "description": ""
+  },
+  "s3": {
+    "bucket": "graphics.axios.com",
+    "folder": "2017-06-16-polarization"
+  },
+  "files": []
+}
