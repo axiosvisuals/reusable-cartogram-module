@@ -1,12 +1,12 @@
 {
   "project": {
-    "name": "polarization",
-    "slug": "polarization",
+    "name": "simple-cartogram",
+    "slug": "simple-cartogram",
     "description": ""
   },
   "s3": {
     "bucket": "graphics.axios.com",
-    "folder": "2017-06-16-polarization"
+    "folder": "2017-08-01-simple-cartogram"
   },
   "files": []
 }

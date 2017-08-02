@@ -9,3 +9,4 @@ Just define a target div, and create a new instance, like so:
     });
 ```
 
+Example: [https://graphics.axios.com/2017-08-01-simple-cartogram/index.html](https://graphics.axios.com/2017-08-01-simple-cartogram/index.html)
